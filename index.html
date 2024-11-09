@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cooling System Components</title>
+    <style>
+        /* Body Styling */
+        body {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            min-height: 100vh;
+            margin: 0;
+            background: linear-gradient(135deg, #1e3c72, #2a5298);
+            color: #ffffff;
+            font-family: 'Times New Roman', Times, serif, sans-serif;
+        }
+        .card {
+            background: #ffffff;
+            padding: 30px;
+            border-radius: 15px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+            width: 270px;
+            text-align: center;
+        }
+
+        /* Title Styling */
+        h1 {
+            margin-bottom: 1px;
+            font-size: 2rem;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+            text-align: center;
+        }
+        h2 {
+            margin-bottom: 0px;
+            font-size: 1rem;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+            text-align: center;
+        }
+
+        /* Button Container Styling */
+        .button-container {
+            display: flex;
+            flex-direction: column;
+            gap: 15px;
+        }
+
+        /* Button Styling */
+        .button {
+            padding: 15px 25px;
+            width: 220px;
+            text-align: center;
+            color: white;
+            font-weight: bold;
+            border: none;
+            border-radius: 8px;
+            text-decoration: none;
+            font-size: 18px;
+            transition: background-color 0.3s, transform 0.3s;
+            cursor: pointer;
+        }
+
+        /* Specific Colors for Each Button */
+        .control-system { background-color: #4a4a4a; }
+        .ion-filter { background-color: #ff8c42; }
+        .steel-tank { background-color: #1a4b7a; }
+        .peltier-sensor { background-color: #6495ed; }
+        .heat-sink-fan { background-color: #3a3a3a; }
+        .cooling-block { background-color: #3366cc; }
+        .pump { background-color: #555555; }
+
+        /* Hover Effect for Buttons */
+        .button:hover {
+            background-color: #e60000;
+            transform: translateY(-5px);
+        }
+    </style>
+</head>
+<body>
+
+<h1>Cooling System Components</h1>
+<h2>Click for more info</h2>
+<div class="card">
+<div class="button-container">
+    <a href="data/control-system.html" class="button control-system">Control System</a>
+    <a href="data/ion-filter.html" class="button ion-filter">Ion Filter</a>
+    <a href="data/steel-tank.html" class="button steel-tank">Steel Tank</a>
+    <a href="data/peltier-sensor.html" class="button peltier-sensor">Peltier Sensor</a>
+    <a href="data/heat-sink-fan.html" class="button heat-sink-fan">Heat Sink & Fan</a>
+    <a href="data/cooling-block.html" class="button cooling-block">Cooling Block</a>
+    <a href="data/pump.html" class="button pump">Pump</a>
+</div>
+</div>
+</body>
+</html>
